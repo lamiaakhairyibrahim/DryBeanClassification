@@ -87,4 +87,35 @@
 
  - Depending on the deployment need (speed vs interpretability vs memory usage), either model can be considered.
 ## How to Run
-
+1. Creation of virtual environments
+```Bash
+python -m venv <name of your environment>
+```
+2. activation of environment
+```Bash
+<name of your environment>\Scripts\activate
+```
+3. Change the directory inside to the environment
+```Bash 
+cd <name of your environment>
+```
+4. creat folder in this directory
+```Bash 
+md src
+```
+5. Change the directory inside to src
+```Bash
+cd src
+```
+6. Colne this repository:
+```Bash
+git clone <url of repo >
+```
+7. install the required dependencies:
+```Bash 
+pip install -r requirements.txt
+```
+8. Run the credit_card_fraud_detection.py script:
+```Bash 
+python main.py <path of dataset>
+```
